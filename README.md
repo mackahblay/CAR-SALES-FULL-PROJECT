@@ -1,22 +1,36 @@
-# CAR-SALES-FULL-PROJECT
+## CAR-SALES-FULL-PROJECT
 
 
-## Linear Regression Analysis Report
+This project aims to analyze car sales data using Python for data preprocessing and linear regression modeling, as well as SQL for exploratory data analysis. The project also includes visualizations created with Tableau to better understand and communicate the insights derived from the data.
 
-### Data Preprocessing:
-The data contains car sales information with various attributes like manufacturer, model, sales figures, vehicle type, price, engine size, fuel capacity, and fuel efficiency. After handling missing values, the dataset had no missing values for manufacturer or vehicle type.
+### Dataset
+The dataset used in this project contains information about various car models, including their sales figures, prices, engine specifications, fuel efficiency, and other relevant details. The dataset is not included in this repository due to potential copyright issues, but you can obtain it from [insert source here].
+Project Structure
+The project is organized into the following directories:
 
-Linear Regression Scenario 1 (Fuel Efficiency):
-A regression model was built to predict fuel efficiency based on various factors. The model showed no missing data for manufacturer or fuel efficiency. 
+python_code/: Contains Python scripts for data preprocessing, linear regression modeling, and other analysis tasks.
+sql_code/: Contains SQL scripts for exploratory data analysis and data manipulation.
+tableau_visualizations/: Contains the Tableau workbook file and any supporting files for the visualizations.
 
-For example, when predicting fuel efficiency for a specific set of vehicles, the model found no missing data for fuel efficiency.
+### Requirements
+To run the Python scripts, you'll need to have the following libraries installed:
 
-Linear Regression Scenario 2 (Price):
-A regression model was created to predict vehicle prices based on manufacturer and fuel capacity. For a certain set of vehicles, no missing data was found for manufacturer or fuel capacity.
+pandas
+numpy
+matplotlib
+seaborn
+scikit-learn
 
-## Summary:
-- This linear regression analysis aimed to model vehicle fuel efficiency and pricing based on relevant attributes like manufacturer, vehicle type, fuel capacity, etc.
-- After preprocessing, no missing data was found for variables like manufacturer, vehicle type, or fuel efficiency/capacity.
-- The specific values for fuel efficiency and pricing varied based on the vehicle set being analyzed.
+You'll also need a MySQL server installed to run the SQL scripts.
 
-Overall, the data preprocessing step focused on handling missing data for attributes like manufacturer, vehicle type, fuel efficiency, and fuel capacity. The model was able to analyze fuel efficiency and pricing for certain vehicle sets without missing data issues.
+### Visualizations
+The Tableau visualizations in this project provide insights into various aspects of the car sales data, including:
+Price vs Resale Value
+Best Selling Models
+Average Sales per Month
+Average Sales per Year
+Fuel Efficiency vs Capacity
+and More!
+
+### Contributing
+Contributions to this project are welcome. If you find any issues or have suggestions for improvements, please open an issue or submit a pull request.
