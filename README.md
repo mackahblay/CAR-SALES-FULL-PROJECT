@@ -4,7 +4,7 @@
 This project aims to analyze car sales data using Python for data preprocessing and linear regression modeling, as well as SQL for exploratory data analysis. The project also includes visualizations created with Tableau to better understand and communicate the insights derived from the data.
 
 ### Dataset
-The dataset used in this project contains information about various car models, including their sales figures, prices, engine specifications, fuel efficiency, and other relevant details. The dataset is not included in this repository due to potential copyright issues, but you can obtain it from [insert source here].
+The dataset used in this project contains information about various car models, including their sales figures, prices, engine specifications, fuel efficiency, and other relevant details. The dataset is not included in this repository due to potential copyright issues, but you can obtain it from Kaggle.
 Project Structure
 The project is organized into the following directories:
 
